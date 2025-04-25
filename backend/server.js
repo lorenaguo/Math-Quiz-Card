@@ -35,18 +35,14 @@ Q: ${question}
 Student's answer: ${studentAnswer}
 Correct answer: ${correctAnswer}
 
-Give only the step-by-step math solution using LaTeX, one step per line.
-Do NOT use \\begin or \\end.
-If a line includes English (e.g. "Let u = sin(x)"), wrap the English in \\text{...}.
-Use \\quad or \\qquad to add space where appropriate.
-Return only LaTeX, one line per step.
+Give only the step-by-step math solution with no necessary words, one step per line.
     `;
   } else if (type === "full") {
     prompt = `
 The student answered this math question incorrectly:
 
 Q: ${question}
-They selected: ${studentAnswer}
+They selected: ${studentAnswer} from a list of multiple choice answers.
 Correct answer: ${correctAnswer}
 
 Give a funny but kind, and concise explanation of why this is incorrect and how to solve it, as if you are a tutor explaining it to the student. Don't make fun of the student's incorrect answer.

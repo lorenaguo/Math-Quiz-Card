@@ -56,7 +56,7 @@ function App() {
     stopSpeaking();
     const utterance = new SpeechSynthesisUtterance(text.replace(/\\/g, ""));
     utterance.lang = "en-US";
-    utterance.rate = 1;
+    utterance.rate = 1.5;
     speechRef.current = utterance;
     utterance.onend = () => {
       setIsVoicePlaying(false);

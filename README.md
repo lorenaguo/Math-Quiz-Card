@@ -69,7 +69,7 @@ Q: Evaluate ∫₀^{π/2} sin⁴(x)cos³(x) dx
 Student's answer: 1/5 (or whichever answer they selected)
 Correct answer: 2/35
 
-Give only the step-by-step math solution using LaTeX, one step per line.
+Give only the step-by-step math solution with no necessary words, one step per line.
 ```
 
 ---
@@ -79,7 +79,7 @@ Give only the step-by-step math solution using LaTeX, one step per line.
 The student answered this math question incorrectly:
 
 Q: Evaluate ∫₀^{π/2} sin⁴(x)cos³(x) dx
-They selected: 1/5 (or whichever answer they selected)
+They selected: 1/5 (or whichever answer they selected) from a list of multiple choice answers.
 Correct answer: 2/35
 
 Give a funny but kind, and concise explanation of why this is incorrect and how to solve it, as if you are a tutor explaining it to the student. Don't make fun of the student's incorrect answer.
