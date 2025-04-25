@@ -1,5 +1,5 @@
 # Math-Quiz-Card
-This is a math quiz card prototype powered by Gemini 2.0 Flash
+This is a math quiz card prototype powered by Gemini 2.0 Flash. It provides users with feedback by offering hints or full solutions. Solution steps are displayed on the blackboard, and students can ask the AI tutor followup questions. There are options to turn off the voiceover or subtitles. 
 
 ## 📦 Setup Instructions
 
@@ -110,7 +110,7 @@ Do not include a full explanation, solution, or answer.
 
 - Add features to track student progress and make a leaderboard
 
-- Make the AI tutor character animated
+- Make the AI tutor character animated and personalize the voice, rather than a static picture
 
 - Let users personalize their own avatar 
 
